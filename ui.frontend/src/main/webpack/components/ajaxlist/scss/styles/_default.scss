@@ -1,0 +1,15 @@
+ul#ajaxlist {
+    li {
+      a {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: start;
+        width: 100%;
+        text-align: left;
+
+        span {
+            margin-right: 30px;
+        }
+      }
+    }
+}

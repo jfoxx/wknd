@@ -1,0 +1,26 @@
+.cmp-swapi {
+    fieldset {
+        display: flex;
+        justify-content: space-between;
+        max-width: 20%;
+        margin-bottom: 30px;
+        margin-top: 50px;
+
+        legend {
+            margin-bottom: 30px;
+        }
+    }
+    
+    &__item {
+        padding: 20px;
+        p {
+            font-weight: bold;
+        }
+    
+        code {
+            width: 30%;
+            display: block;
+            min-height: 200px;
+        }
+    }
+}
